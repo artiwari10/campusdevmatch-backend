@@ -7,7 +7,7 @@ const cors = require("cors");
 require('dotenv').config();
 
 app.use(cors({
-  origin: "https://camusdevmatch-frontend.vercel.app",
+  origin: "https://campusdevmatch-backend-frontend.onrender.com",
   credentials: true,
 }));
 app.use(express.json());
